@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html leng="en">
+  <head>
+    <link rel="stylesheet" href="styles-survey.css">
+    <title>ListenTo Survey</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1 id="title">ListenTo Survey</h1>
+    <p id="description">We are happy to know the feedback of your expririence with the ListenTo web app!</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name
+        <input id="name" type="text" required placeholder="Enter your full name."/>
+      </label>
+      <label for="email" id="email-label">email
+        <input id="email" type="email" required placeholder="Enter you email adress." />
+      </label>
+      <label for="number" id="number-label">Age
+        <input id="number" type="number" required min="6" max="120" placeholder="Enter your age." />
+      </label>
+      <label for="dropdown">Choose your rating for the web app.
+        <select class="select" id="dropdown">
+          <option>select one</option>
+          <option>1- I absolutely dislike it.</option>
+          <option>2- I don't like it.</option>
+          <option>3- It's just okay.</option>
+          <option>4- I like it.</option>
+          <option>5- I absolutely love it.</option>
+        </select>
+      </label>
+      <legend>Would you recomend the web app?</legend>
+      <label for="recomend">
+        <input type="radio" class="recomend" name="recomend" id="recomend">Yes
+        <input type="radio" class="recomend" name="recomend" id="recomend">No
+      </label>
+      <legend>Choose if you would like to (not required): </legend>
+      <label for="checkbox">
+        <input class="checkbox" type="checkbox" display="inline" value="1"> Suscribe
+        <input class="checkbox" type="checkbox" display="inline" value="2"> Donate
+      </label>
+      <label for="feedback">
+        <textarea id="feedback" placeholder="Feel free to gives us your feedback here!"></textarea>
+      </label>
+      <label for="submit">
+        <input id="submit" type="submit" value="Send" class="submit">
+      </label>
+    </form> 
+  </body>
+</html>

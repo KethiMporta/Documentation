@@ -1,0 +1,83 @@
+html{
+    background-image:url(https://images.pexels.com/photos/7424/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+body{
+    background-color:rgba(255,240,120,0.9);
+    margin: 20px auto;
+    max-width: 600px;
+    padding-bottom: 13px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, p {
+    width: 100%;
+    text-align:center;
+    max-width:400px;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label, legend{
+    width:100%;
+    max-width:400px;
+    display: block;
+    text-align:left;
+    margin: 10px auto;
+}
+
+input{
+    width:100%;
+    max-width: 400px;
+    display:block;
+    margin: auto;
+    font-family: serif;
+}
+
+.recomend {
+    width:auto;
+    min-width: 20px;
+    margin:auto;
+    display: inline;
+    vertical-align: middle;
+}
+
+.checkbox {
+    width:auto;
+    min-width: 20px;
+    margin:auto;
+    display: inline;
+    vertical-align: middle;
+}
+
+textarea {
+    width: 100%;
+    height: 5em ;
+    font-family: serif;
+}
+
+.submit{
+    height: 2.0em;
+    background-color: rgba(63,79,253, 0.5);
+    margin-top: 10px;
+    border-color:rgba(63,79,100, 0.5);
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color:rgba(63,79,100, 0.5);
+    border-color:rgba(63,79,253, 0.5);
+    color: rgba(255,240,120,1);
+    border: 4px solid rgba(63,79,253, 0.9);
+}
+
+.select {
+    font-family: serif;
+    padding: 1px 2px;
+    width: 100%;
+    min-width:261px;
+    height: 23px 
+}
