@@ -3,35 +3,52 @@
     <head>
         <link rel="stylesheet" href="styles-portfolio.css">
         <meta charset="utf-8">
-        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Marcos Sosa's portfolio</title>
     </head>
     <body>
-        <header></header>
+        <header>
+            <nav id="navbar">
+                <div class="nav-links">
+                    <div class="nav-link-outer"><a class="nav-link-inner" href="#welcome-section" >about</a></div>
+                    <div class="nav-link-outer"><a class="nav-link-inner" href="#proyects">portfolio</a></div>
+                    <div class="nav-link-outer"><a class="nav-link-inner" href="#footer">contact</a></div>
+                </div>
+            </nav>
+        </header>
         <main>
             <section id="welcome-section">
-                <h1>Hello there, I'm Marcos Sosa.</h1>
+                <h1>Hello there!, I'm <a id="profile-link" href="https://github.com/KethiMporta" target="_blank">Marcos Sosa</a>.</h1>
                 <h2>Junior developer, semi-senior human being, and senior autodidact.</h2>
             </section>
             <section id="proyects">
-                <div>
-                    <h3 id="protect-title">Tribute Page</h3>
-                    <a href="" target="_blank"><img src="" alt="tribute-page-img"></a>
+                <div class="first-row">
+                    <div class="tribute-page">
+                        <h3 id="protect-title">Tribute Page</h3>
+                        <a href="Tribute page/index.html" target="_blank"><img src="Portfolio images/Tribute Page.png" alt="tribute-page-img"></a>
+                    </div>
+                    <div class="landinf-page">
+                        <h3 id="protect-title">Landing Page</h3>
+                        <a href="Landing page/index.html" target="_blank"><img src="Portfolio images/Landing Page.png" alt="landing-page-img"></a>
+                    </div>
+                    <div class="documentation">
+                        <h3 id="protect-title">Documentation</h3>
+                        <a href="Documentation/index.html" target="_blank"><img src="Portfolio images/Documentation.png" alt="documentation-img"></a>
+                    </div>
                 </div>
-                <div>
-                    <h3 id="protect-title">Landing Page</h3>
-                    <a href="" target="_blank"><img src="" alt="landing-page-img"></a>
-                </div>
-                <div>
-                    <h3 id="protect-title">Documentation</h3>
-                    <a href="" target="_blank"><img src="" alt="documentation-img"></a>
-                </div>
-                <div>
-                    <h3 id="protect-title">Survey</h3>
-                    <a href="" target="_blank"><img src="" alt="survey-img"></a>
+                <div class="second-row">
+                    <div class="survey">
+                        <h3 id="survey">Survey</h3>
+                        <a href="Survey/index.html" target="_blank"><img src="Portfolio images/Survey.png" alt="survey-img"></a>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer id="footer">
+            <h1>Let's work togheter!</h1>
+            <h3>contact</h3>
+            <p>Phone: <a href="tel:+541126804251">(+54) 11 2680-4251</a></p>
+            <p>e-mail: <a href="mailto:marcos.sosa.guerraz@gmail.com">marcos.sosa.guerraz@gmail.com</a></p>
+    </footer>
     </body>
 </html>
