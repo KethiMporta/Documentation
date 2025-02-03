@@ -89,10 +89,17 @@ h2 {
     
 }
 
-.first-row {
+/*.first-row {
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(2,2fr);
     text-align: center;
+}*/
+
+.first-row {
+    display: flex;
+    float: left;
+    
 }
 
 .second-row {
