@@ -98,26 +98,36 @@ h2 {
 
 .first-row {
     display: flex;
+    flex-direction: row;
     float: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
     
 }
 
-.second-row {
-    display: grid;
-    text-align: center;
+.img1, .img2, .img3 , .img4{
+    width: 500px;
+    object-fit: cover;
+    border: 4px double black;
+    border-radius: 5px;
+
 }
 
-.img1, .img2, .img3 , .img4{
-    scale: 0.5;
+.img4 {
+    margin-bottom: 30px;
 }
 
 footer {
+    display:flow-root;
     width: 100%;
     font-family:'Trebuchet MS';
     background-color:rgb(231, 231, 231);
-    border-top: 1px solid black;
+    border-top: 1px solid blue;
     text-align: center;
     padding-top: 20px;
+    top: 50px
 }
 
 footer h3 {
