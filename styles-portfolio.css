@@ -108,11 +108,12 @@ h2 {
 }
 
 .img1, .img2, .img3 , .img4{
-    width: 500px;
+    max-width: 500px;
     object-fit: cover;
     border: 4px double black;
     border-radius: 5px;
-
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .img4 {
@@ -138,4 +139,18 @@ footer h1 {
     border: none;
     font-weight: lighter;
     color: black;
+}
+
+@media (max-width: 700px) {
+    h1, h1 a{
+        border: none
+    }
+    .title-sub-line {
+        border-bottom: 1px solid black;
+        margin-left: 15px;
+        margin-right: 15px
+    }
+    .img1, .img2, .img3, .img4 {
+        width: 75vw
+    }
 }
