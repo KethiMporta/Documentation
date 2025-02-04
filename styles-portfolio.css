@@ -3,8 +3,10 @@
 }
 
 :root{
-    --header-width: 50px;
-    --footer-width: 50px;
+    --color1: black;
+    --color2: rgb(231, 231, 231);
+    --color3: rgb(95, 158, 160);
+    --color4: rgb(3, 128, 133);
 }
 
 body {
@@ -17,9 +19,9 @@ header {
     position: fixed;
     display: flex;
     width: 100%;
-    height: var(--header-width);
-    background-color: rgb(231, 231, 231);
-    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: var(--color2);
+    border-bottom: 1px solid var(--color1);
     z-index: 10;
 }
 
@@ -27,6 +29,7 @@ header {
     width: 100%;
     height: 100%;
     align-content: center;
+    font-family:'Trebuchet MS'
 }
 
 #nav-links {
@@ -48,53 +51,51 @@ header {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: var(--color1);
 }
 
 main {
     width: 100%;
-    /*padding-top: var(--header-width);*/
 }
 
 #welcome-section {
     width: 100%;
     height: 100vh;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color1);
     align-content: center;
     font-family:'Trebuchet MS';
     text-align: center;
 }
 
 h1, h1 a {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color1);
     width: fit-content;
     font-size: 2.9rem;
     margin: 0 auto;
     text-decoration: none;
-    color: cadetblue;
+    color: var(--color4);
 }
 
 h2 {
     margin: 0 auto;
     font-size: 2rem;
     font-weight: lighter;
-    color: cadetblue
+    color: var(--color3)
 }
 
-#proyects {
+#projects {
     width: 100%;
     height: 100vh;
     font-family:'Trebuchet MS';
     margin-top: 10px;
-    
+    scroll-margin-top: 50px;
 }
 
-/*.first-row {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-template-rows: repeat(2,2fr);
-    text-align: center;
-}*/
+#projects h1 {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.699);
+    border: none;
+}
 
 .first-row {
     display: flex;
@@ -104,13 +105,15 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    text-transform: uppercase;
+    color: var(--color4);
     
 }
 
 .img1, .img2, .img3 , .img4{
     max-width: 500px;
     object-fit: cover;
-    border: 4px double black;
+    border: 4px double var(--color1);
     border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
@@ -124,8 +127,8 @@ footer {
     display:flow-root;
     width: 100%;
     font-family:'Trebuchet MS';
-    background-color:rgb(231, 231, 231);
-    border-top: 1px solid blue;
+    background-color:var(--color2);
+    border-top: 1px solid var(--color1);
     text-align: center;
     padding-top: 20px;
     top: 50px
@@ -133,12 +136,13 @@ footer {
 
 footer h3 {
     text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.699);
 }
 
 footer h1 {
     border: none;
     font-weight: lighter;
-    color: black;
+    color: var(--color1);
 }
 
 @media (max-width: 700px) {
@@ -146,7 +150,7 @@ footer h1 {
         border: none
     }
     .title-sub-line {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid var(--color1);
         margin-left: 15px;
         margin-right: 15px
     }
