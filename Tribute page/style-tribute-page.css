@@ -2,6 +2,22 @@
     box-sizing: border-box;
   }*/
 
+html {
+    background-color: white;
+    margin: 0%;
+    padding: 0%
+}
+
+body{
+    margin: 0%;
+    padding: 0%
+}
+main {
+    background: linear-gradient(black 0%, white 29%, white 39%, rgb(221, 221, 221));
+    margin: 0%;
+    padding: 0%
+}
+
 figure {
     width: 355px;
     display: flex;
@@ -10,6 +26,7 @@ figure {
     align-items: center;
     margin: 0 auto;
     background-color: black;
+    ;
 }
 
 #image {
@@ -31,4 +48,5 @@ figure {
 p {
     text-indent: 20px;
     text-align: justify;
+    margin: 0 10px;
 }
