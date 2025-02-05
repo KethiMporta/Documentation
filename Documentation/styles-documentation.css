@@ -3,6 +3,11 @@
     background-color:#e8fdff;
 }
 
+body {
+    margin: 0;
+    padding: 0
+}
+
 .sr-only {
     width: 0;
     height: 0;
@@ -17,7 +22,7 @@ h3, .nav-link {
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 h2, p, ul {
@@ -29,26 +34,26 @@ h2, p, ul {
 main {
     display:block;
     position:absolute;
-    border: 1px solid red;
     width: 95vw;
     text-align: justify;
     border: 4px double #048894;
     overflow-y:visible;
     margin-top: 65px;
     margin-bottom: 5px;
-    
-
-    
+    z-index: -1;
 }
 
 
 #navbar {
     display:flex;
+    flex-wrap: wrap;
+    float: left;
     border: 2px solid #048894;
     height: 60px;
     width: 95vw;
     position:fixed;
     flex-direction: row;
+    padding: 3px;
 }
 
 @media (min-width: 800px) {
@@ -59,10 +64,10 @@ main {
         width: 250px;
         position:fixed;
         left: 0;
-        align-content:space-evenly;
         text-align: left;
         height: auto;
         margin-top: 0;
+        z-index: 0
         
     }
     
@@ -74,6 +79,7 @@ main {
         font-style: normal;
         text-decoration: none;
         color: black
+        
         
     }
 
@@ -89,12 +95,12 @@ main {
     }
 
     main {
-        border: 1px solid red;
         width: calc(96vw - 250px);
         margin-left: 250px;
         text-align: justify;
         border: 4px double #048894;
         margin-top: 0;
+        z-index: 0
     }
 
     h2, p, ul {
