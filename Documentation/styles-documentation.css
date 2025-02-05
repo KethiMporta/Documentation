@@ -34,26 +34,21 @@ h2, p, ul {
 main {
     display:block;
     position:absolute;
-    width: 95vw;
     text-align: justify;
     border: 4px double #048894;
     overflow-y:visible;
-    margin-top: 65px;
-    margin-bottom: 5px;
+    margin-top: 60px;
     z-index: -1;
 }
 
 
 #navbar {
     display:flex;
-    flex-wrap: wrap;
-    float: left;
     border: 2px solid #048894;
     height: 60px;
-    width: 95vw;
+    width: 100%;
     position:fixed;
     flex-direction: row;
-    padding: 3px;
 }
 
 @media (min-width: 800px) {
@@ -100,7 +95,7 @@ main {
         text-align: justify;
         border: 4px double #048894;
         margin-top: 0;
-        z-index: 0
+        z-index:0
     }
 
     h2, p, ul {
