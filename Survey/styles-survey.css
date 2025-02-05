@@ -1,21 +1,24 @@
 html{
     background-image:url(https://cdn.pixabay.com/photo/2016/04/01/08/43/animal-1298913_640.png);
+    ;
+    box-sizing: border-box;
+
 }
 
 body{
     background-color:rgba(255,240,120,0.9);
-    margin: 20px auto;
     max-width: 600px;
-    padding-bottom: 13px;
-    padding-top: 10px;
+    height: 98vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1vh auto;
 }
 
 h1, p {
     width: 100%;
     text-align:center;
     max-width:400px;
-    margin: 10px auto;
+    /*padding-top: 7px;*/
+    margin: 0px auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -78,6 +81,10 @@ textarea {
     font-family: serif;
     padding: 1px 2px;
     width: 100%;
-    min-width:261px;
+    /*min-width:261px;*/
     height: 23px 
+}
+
+#survey-form {
+    padding-bottom: 1px
 }
