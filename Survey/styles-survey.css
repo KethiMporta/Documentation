@@ -19,8 +19,7 @@ main {
     max-width: 600px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 auto;
-    margin-top: auto;
-    margin-bottom: auto;
+
 }
 
 h1, p {
@@ -29,6 +28,10 @@ h1, p {
     max-width:400px;
     margin: 0px auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    padding-top: 25px;
 }
 
 label, legend{
@@ -76,7 +79,6 @@ textarea {
 .submit{
     height: 2.0em;
     background-color: rgba(63,79,253, 0.5);
-    margin-top: 10px;
     border-color:rgba(63,79,100, 0.5);
     width: 100%;
     font-size: 20px;
