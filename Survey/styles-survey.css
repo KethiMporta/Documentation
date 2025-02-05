@@ -3,27 +3,28 @@
 }
 
 body{
+    border: 1px solid red;
     background-image:url(https://cdn.pixabay.com/photo/2016/04/01/08/43/animal-1298913_640.png);
     vertical-align: middle;
 }
 
 form {
     display: inline;
-    border: 1px solid red;
+    height: 100vh;
+    border: 1px solid blue;
 }
 
 main {
     background-color:rgba(255,240,120,0.9);
     max-width: 600px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 1% auto;
+    margin: 0 auto;
 }
 
 h1, p {
     width: 100%;
     text-align:center;
     max-width:400px;
-    /*padding-top: 7px;*/
     margin: 0px auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -34,6 +35,8 @@ label, legend{
     display: block;
     text-align:left;
     margin: 10px auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 input{
@@ -71,7 +74,7 @@ textarea {
     background-color: rgba(63,79,253, 0.5);
     margin-top: 10px;
     border-color:rgba(63,79,100, 0.5);
-    margin-left: 2px;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -85,12 +88,6 @@ textarea {
 
 .select {
     font-family: serif;
-    padding: 1px 2px;
     width: 100%;
-    /*min-width:261px;*/
     height: 23px 
-}
-
-#survey-form {
-    padding-bottom: 1px
 }
