@@ -92,13 +92,3 @@ textarea {
     height: 23px;
     border: 1px solid rgba(0, 0, 0, 0.562)
 }
-
-@media (max-width:500px) {
-    main p {
-        height:0;
-        width:0;
-        padding: 0;
-        overflow:hidden
-    }
-
-}
