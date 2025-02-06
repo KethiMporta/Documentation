@@ -48,3 +48,9 @@ p {
     text-align: justify;
     margin: 0 10px;
 }
+
+@media (max-width:900px) {
+    p {
+        width: 70vw
+    }
+}
