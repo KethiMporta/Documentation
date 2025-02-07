@@ -52,7 +52,7 @@ p {
 
 @media (min-width:900px) {
     p {
-        width: 70vw
+        width: 70vw;
         margin: 0 auto
     }
 }
